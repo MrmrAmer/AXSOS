@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 15px 50px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 5px 20px 0px
+}
+
+li {
+    margin-right: 20px;
+    font-family: "Roboto", serif;
+    font-weight: 200;
+}
+
+button {
+    color: white;
+    font-size: 16px;
+    background-color: #17a2b8;
+    padding: 5px 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.active:hover {
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    max-width: 850px;
+    margin: auto;
+    padding: 0px 10px;
+    gap: 20px;
+}
+
+.column1 {
+    flex: 2;
+}
+
+.column2 {
+    flex: 1;
+}
+
+.box1 {
+    background-color: #17a2b8;
+    position: relative;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.box1 img {
+    height: 100%;
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+
+.box2 {
+    padding: 10px 20px;
+    border: 2px solid #cccccc;
+    /* margin-bottom: 20px; */
+}
+
+.location img, .gear img {
+    height: 15px;
+}
+
+.location, .gear {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location {
+    width: 80px;
+    margin: 10px 0;
+}
+
+.gear {
+    width: 93px;
+    margin-top: 10px;
+}
+
+.card h1 {
+    margin-top: 40px;
+}
+
+.card h2 {
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.box3 {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.circle {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    color: black;
+}
+
+.profile img, .profile2 img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile, .profile2 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.profile {
+    justify-content: space-between;
+}
+
+#icon {
+    height: 30px;
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.education p {
+    margin: 10px 0px;
+    font-size: 18px;
+}

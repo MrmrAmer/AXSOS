@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.octodex {
+    background-color: #dbdbdc;
+    width: 800px;
+    border-top: 4px solid black;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.blue {
+    background-color: #57c3f2;
+}
+
+.red {
+    background-color: #d5a0aa;
+}
+
+.white {
+    background-color: #fcfcff;
+}
+
+img {
+    height: 200px;
+}

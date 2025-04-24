@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    height: 40px;
+    width: 700px;
+    padding: 10px;
+    background-color: #333333;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    color: white;
+    margin: 10px;
+    list-style: none;
+}
+
+.active:hover {
+    font-weight: 400;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #17a2b8;
+    color: white;
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: 3px 3px black;
+}

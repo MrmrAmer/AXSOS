@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Internet</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="./img/globe.png" height="100" alt="Globe Logo">
+            <h1>The Inter<span>net</span></h1>
+        </div>
+        <h2>The World Wide Web</h2>
+    </header>
+    <main>
+        <div class="side">
+            <div class="note">
+                <h3>So, What's an <span id="red">Internet?</span></h3>
+                <p>An <span>Inter</span>connected <span>Net</span>work of computers all around the world!</p>
+                <button id="blue">WATCH A VIDEO</button>
+                <button id="orange">MORE RESOURCES</button>
+            </div>
+            <div class="picture">
+                <p>Reinvent your career in just 14 weeks</p>
+                <img src="./img/ninja.png" height="120" alt="Ninja">
+                <button id="ninja-button">Learn More</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="dns">
+                <div class="home">
+                    <img src="./img/home.png" height="20" alt="Home Icon">
+                    <p>DNS</p>
+                </div>
+                <div class="phone">
+                    <img src="./img/phone.png" height="40" alt="Phone Icon">
+                    <div class="phone-details">
+                        <p>Mon-Fri 9 a.m. - 5 p.m. (EST)</p>
+                        <p id="big-phone"><strong>855.967.3787</strong></p>
+                        <p>International +1.617.963.0555</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-container">
+                <h3>Clients and Servers</h3>
+                <p>Computers connected to the <span>Web</span> are called <strong>clients</strong> and <strong>servers.</strong></p>
+                <ul>
+                    <li><span>Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span>Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</li>
+                    <li><span>Servers</span> are computers that store <span>webpages</span>, <span>sites</span>, or <span>apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+                </ul>
+                <div class="center-image">
+                    <img src="./img/client_server.jpg" height="100" alt="Client Server Relation">
+                </div>
+                <h3>So What Actually Happens?</h3>
+                <ol>
+                    <li>The browser goes to the <span>DNS server</span> and finds the real address of the <span>server</span> that the website lives on.</li>
+                    <li>The browser sends an <span>HTTP request</span> message to the server asking it to send a copy of the website to the client.</li>
+                    <li>If the server approves the client's request, the server sends the client a <span>"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+                    <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+                </ol>
+            </div>
+            <footer>
+                <img src="./img/html.png" height="100" alt="HTML Logo">
+                <div class="foot">
+                    <h3>The Big 3-HTML, CSS, JavaScript</h3>
+                    <p>While the server can process information in many different languages, the files that they serve to the client are always going to be some combination of HTML, CSS, and JavaScript!</p>
+                    <p>Learn more about the Big 3 <span>here</span>!</p>
+                </div>
+            </footer>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

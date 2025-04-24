@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.title {
+    display: flex;
+    align-items: end;
+    position: relative;
+    padding: 20px 10px 0px;
+}
+
+.title img {
+    position: absolute;
+    top: -3px;
+}
+
+.title span, .note span, .home p {
+    color: #2367a2
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 110px;
+}
+
+h2 {
+    color: white;
+    background-color: #2b6aa0;
+    font-size: 40px;
+    padding: 10px 20px;
+}
+
+main {
+    background-color: #eaeaea;
+    display: flex;
+}
+
+#red {
+    color: red;
+}
+
+.note {
+    padding: 20px 5px;
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-left: 5px;
+}
+
+.note p {
+    margin: 10px 0px;
+}
+
+.home {
+    display: flex;
+    align-items: end;
+}
+
+#big-phone {
+    color: #00c0e1;
+    font-size: 37px;
+}
+
+.phone-details {
+    text-align: center;
+}
+
+.dns, .phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home p, .phone p {
+    margin-left: 10px;
+}
+
+.side {
+    width: 30%;
+}
+
+.main {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.dns {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.main-container p, .main-container h3, .main-container li {
+    margin: 10px 0px;
+}
+
+.main-container ul, .main-container ol {
+    margin-left: 40px;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: #296ba3;
+}
+
+footer {
+    display: flex;
+    border: 4px solid #038adf;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #9a9a9c;
+    align-items: center;
+}
+
+.foot {
+    margin-left: 20px;
+}
+
+.foot h3, .foot p {
+    margin: 10px;
+}
+
+button {
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px #9a9a9c;
+}
+
+#blue {
+    background-color: #3876a9;
+}
+
+#orange {
+    background-color: #ed972b;
+}
+
+.picture {
+    margin: 20px 5px;
+    background-image: url("./img/ad_background.png");
+    height: 280px;
+    box-shadow: 2px 2px 2px #9a9a9c;
+    text-align: center;
+    padding: 30px 10px;
+    width: 87%;
+}
+
+.picture p {
+    color: white;
+    font-size: 27px;
+}
+
+.picture button {
+    margin: 10px auto;
+    background-color: #46cae0;
+}
+
+#ninja-button {
+    width: 200px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.main-container span, .foot span {
+    color: #46cae0;
+    font-weight: bold;
+}

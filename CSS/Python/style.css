@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+body {
+    width: 970px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+header, .nav-top ul, .container, .white, .foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+header, .nav-top, .container, footer {
+    background-color: #245075;
+}
+
+header {
+    padding: 0px 20px;
+}
+
+.text-size {
+    text-align: end;
+    padding: 5px 20px;
+    margin-right: 17px;
+}
+
+.text-size span, button, .nav-top, .nav-side a, .container, #dif {
+    color: white;
+}
+
+.text-size a {
+    color: #beb231;
+}
+
+.search-box, input[type="text"], button {
+    box-shadow: 1px 1px 1px black;
+}
+
+.search-box {
+    background-color: #444444;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+input[type="text"], .nav-top ul, .container, section, footer p {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 5px;
+    border: none;
+}
+
+button {
+    background-color: #255175;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* border-top: 2px solid #c0c0c0;
+    border-left: 2px solid #c0c0c0;
+    border-right: 2px solid #6d6d6d;
+    border-bottom: 2px solid #6d6d6d; */
+    border: 2px solid #c0c0c0;
+    box-shadow: 2px 2px 6px black;
+    cursor: pointer;
+}
+
+.nav-top {
+    padding: 5px 50px;
+}
+
+.nav-top ul {
+    background-color: #437bac;
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px 60px;
+}
+
+.nav-side ul {
+    width: 150px;
+    list-style: none;
+    margin-right: 20px;
+    padding: 20px 0px;
+}
+
+.nav-side li {
+    margin-bottom: 10px;
+}
+
+.nav-side span {
+    color: #fbd434;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.main-content p {
+    margin-bottom: 10px;
+}
+
+.main-content span {
+    font-size: 15px;
+}
+
+.italic {
+    color: #fbd434;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#dif {
+    font-style: normal;
+}
+
+.white {
+    padding: 5px 40px 0px;
+    border-top: 2px solid black;
+}
+
+section {
+    border-top: 4px solid #437bac;
+    margin: 10px;
+    padding: 10px 10px 0px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section ul {
+    padding: 5px 50px 0px;
+}
+
+footer {
+    color: #9dcaf0;
+    padding: 40px 150px 5px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 12px;
+}
