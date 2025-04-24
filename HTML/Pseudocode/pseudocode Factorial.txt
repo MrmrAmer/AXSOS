@@ -1,0 +1,14 @@
+START
+	INPUT n
+	IF n < 0 THEN
+		PRINT Error
+	ENDIF
+	IF n=0 OR n=1 THEN
+		PRINT "The factorial of", n, "is: 1"
+        ENDIF
+	SET factorial = 1
+	FOR i FROM 2 to n DO
+		factorial = factorial * i
+	ENDFOR
+	PRINT "The factorial of", n, "is:", factorial
+END

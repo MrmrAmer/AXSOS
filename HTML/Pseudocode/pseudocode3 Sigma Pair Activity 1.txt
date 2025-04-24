@@ -1,0 +1,13 @@
+Calculate the sum of all integers from 1 to a given positive integer N
+
+START
+	INPUT n
+	SET sum = 0
+	FOR i from 1 to n
+		sum= sum + i
+	ENDFOR
+	PRINT sum
+END
+
+KARAM/MARWAN/FATIMA
+

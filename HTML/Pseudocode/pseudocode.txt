@@ -1,0 +1,8 @@
+START
+	INPUT number1
+	INPUT number2
+	INPUT number3
+	SET sum to Number1 + Number2 + Number3
+	SET average to sum Devided by 3
+	Print average
+END

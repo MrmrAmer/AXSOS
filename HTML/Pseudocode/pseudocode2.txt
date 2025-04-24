@@ -1,0 +1,6 @@
+START
+	INPUT length
+	INPUT width
+	SET area to length x width
+	PRINT area
+END
