@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <header>
+        <div class="top-title">
+            <h1>Network</h1>
+        </div>
+    </header>
+    <h2>Your Feed</h2>
+    <main>
+        <div class="left-colums">
+            <div class="profile">
+                <img src="./img/user-circle.png" height="100" alt="Profile Picture">
+                <p><a href="#">Add an avatar</a></p>
+                <h3>James Doe</h3>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="likes-box">
+                <div class="user">
+                    <h3>Neil M</h3>
+                    <div class="likes">
+                        <p><span id="likeCount1">9</span> like(s)</p>
+                        <button onclick="changelikes('#likeCount1')">Like</button>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>I just setup this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="likes-box">
+                <div class="user">
+                    <h3>Nichole K</h3>
+                    <div class="likes">
+                        <p><span id="likeCount2">12</span> like(s)</p>
+                        <button onclick="changelikes('#likeCount2')">Like</button>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div class="likes-box">
+                <div class="user">
+                    <h3>Jim R</h3>
+                    <div class="likes">
+                        <p><span id="likeCount3">9</span> like(s)</p>
+                        <button onclick="changelikes('#likeCount3')">Like</button>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>I can't stop listening to the new album. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
