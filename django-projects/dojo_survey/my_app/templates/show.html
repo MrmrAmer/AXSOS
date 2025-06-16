@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Dojo Survey Result</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h3>Submitted Info</h3>
+            <div id="show">
+                <div class="space">
+                    <p>Your Name:</p>
+                    <p>{{ name_from_form }}</p>
+                </div>
+                <div class="space">
+                    <p>Dojo Location:</p>
+                    <p>{{ location_from_form }}</p>
+                </div>
+                <div class="space">
+                    <p>Favorite Language:</p>
+                    <p>{{ language_from_form }}</p>
+                </div>
+                <div class="space">
+                    <p>Gender Identity:</p>
+                    <p>{{ gender_from_form }}</p>
+                </div>
+                <div class="space">
+                    <p>Comment:</p>
+                    <p>{{ comment_from_form }}</p>
+                </div>
+                <div class="space">
+                    <p>Email updates?</p>
+                    <p>{{ accept_from_form }}</p>
+                </div>
+            </div>
+            <div id="flex-end">
+                <form action="/" method="get">
+                    <button type="submit">Go Back</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

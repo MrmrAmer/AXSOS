@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Dojo Survey</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <form action="/result" method="post">
+                {% csrf_token %}
+                <div class="space">
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="space">
+                    <label for="location">Dojo Location:</label>
+                    <select name="location" id="location">
+                        <option value="San Jose">San Jose</option>
+                        <option value="Santa Clara">Santa Clara</option>
+                        <option value="Fremont">Fremont</option>
+                    </select>
+                </div>
+                <div class="space">
+                    <label for="language">Favorite Language:</label>
+                    <select name="language" id="language">
+                        <option value="Javascript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="C++">C++</option>
+                    </select>
+                </div>
+                <div id="break">
+                    <label>Gender Identity:</label><br>
+                    <input type="radio" name="gender" value="Male" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="Female" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="No Answer" id="noanswer">
+                    <label for="noanswer">I prefer not to answer</label>
+                </div>
+                <div>
+                    <label for="comment">Comment (Optional):</label>
+                    <textarea name="comment" id="comment" cols="42" rows="6"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" name="accept" id="accept">
+                    <label for="accept">Yes, I would like to receive periodic email updates</label>
+                </div>
+                <div id="flex-end">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
